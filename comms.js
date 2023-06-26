@@ -18,7 +18,7 @@ class TelegramBotSetup {
   }
 }
 
-class Bot extends TelegramBotSetup {
+class Comms extends TelegramBotSetup {
   constructor(botToken, defaultChatID) {
     super(botToken);
     this.dcid = defaultChatID;
@@ -183,4 +183,4 @@ class Bot extends TelegramBotSetup {
 
 }
 
-Bot.start()
+Comms.start()
